@@ -13,3 +13,5 @@ def test_get_activities():
     # Assert
     assert response.status_code == expected_status
     assert isinstance(response.json(), dict)
+
+    
