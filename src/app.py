@@ -83,7 +83,7 @@ activities = {
 
 @app.get("/")
 def root():
-    return RedirectResponse(url="/static/index.html")
+    return {"message": "Welcome to the Mergington High School API!"}
 
 
 @app.get("/activities")
